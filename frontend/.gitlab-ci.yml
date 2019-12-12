@@ -1,0 +1,20 @@
+image: node:10
+
+# add cache to 'node_modules' for speeding up builds
+cache:
+  paths: 
+    - node_modules/ # Node modules and dependencies
+
+before_script:
+  - yarn
+
+# the 'pages' job will deploy and build your site to the 'public' path
+pages:
+  stage: deploy
+  script:
+    - yarn run generate
+  artifacts:
+    paths:
+      - public 
+  only:
+    - master # this job will affect only the 'master' branch

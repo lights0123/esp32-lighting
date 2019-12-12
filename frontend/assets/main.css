@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: local("Open Sans Regular"), url("~open-sans-fontface/fonts/Regular/OpenSans-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding-top: 2em;
+	text-align: center;
+}
+
+.page-enter-active, .page-leave-active {
+	transition: opacity .3s
+}
+.page-enter, .page-leave-active {
+	opacity: 0
+}

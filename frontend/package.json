@@ -1,0 +1,52 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend",
+  "author": "lights0123",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "analyze": "nuxt-ts build -a",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@msgpack/msgpack": "latest",
+    "@nuxt/config": "^2.6.3",
+    "@nuxt/typescript-runtime": "^0.2.4",
+    "element-ui": "^2.4.11",
+    "mz": "^2.7.0",
+    "node-sass": "^4.12.0",
+    "nuxt": "^2.4.0",
+    "open-sans-fontface": "^1.4.0",
+    "sass-loader": "^8.0.0",
+    "ts-node": "^8.1.0",
+    "vue": "^2.6.10",
+    "vue-awesome": "^4.0.2",
+    "vue-property-decorator": "^8.3.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@nuxt/typescript-build": "^0.3.4",
+    "@nuxtjs/eslint-config": "^1.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "eslint": "^6.7.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-standard": ">=12.0.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-import": ">=2.16.0",
+    "eslint-plugin-jest": ">=22.3.0",
+    "eslint-plugin-node": ">=8.0.1",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-promise": ">=4.0.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-plugin-vue": "^6.0.1",
+    "nuxt-compress": "^1.0.2",
+    "typescript-eslint-parser": "^22.0.0"
+  }
+}
